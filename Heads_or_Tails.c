@@ -4,6 +4,11 @@
 int main(){
     srand((unsigned int)time(NULL));
 
+    char name[30];
+    printf("Who are you?\n");
+    scanf("%s",name);
+    printf("Hello, %s!\n",name);
+
     int H,T;
     H=T=0;
     printf("Tossing a coin...\n");
